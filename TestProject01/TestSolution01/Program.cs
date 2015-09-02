@@ -11,9 +11,14 @@ namespace TestSolution01
         static void Main(string[] args)
         {
             Console.WriteLine("blah");
+            g();
             Console.Read();
+            
         }
 
-        static void g() { }
+        static void g()
+        {
+            Console.WriteLine("G");
+        }
     }
 }
