@@ -10,6 +10,8 @@ namespace TestSolution01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("blah");
+            Console.Read();
         }
 
         static void g() { }
