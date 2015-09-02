@@ -12,6 +12,7 @@ namespace TestSolution01
         {
             Console.WriteLine("blah");
             g();
+            f();
             Console.Read();
             
         }
@@ -19,6 +20,11 @@ namespace TestSolution01
         static void g()
         {
             Console.WriteLine("G");
+        }
+
+        static void f()
+        {
+            Console.WriteLine("F");
         }
     }
 }
